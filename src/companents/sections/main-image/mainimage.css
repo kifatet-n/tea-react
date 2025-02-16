@@ -1,0 +1,17 @@
+
+.main-image {
+    background-image: url(./src/assets/image/backgroundimage.svg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.word {
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 48px; 
+    margin-bottom: 20px; 
+    color: white;
+
+}

@@ -1,0 +1,16 @@
+.header-action{
+  display: flex;
+  gap: 30px;
+}
+.header-action ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.header-action-list{
+  width: 100%;
+  
+}
+.header-action-list-item {
+    width: 20px;
+}

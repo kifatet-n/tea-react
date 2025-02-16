@@ -1,0 +1,13 @@
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+
+    
+}
+.header-nav-list-item {
+    
+    text-decoration: none;
+    
+}

@@ -1,0 +1,32 @@
+.main-blog>h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+ }
+.main-blog {
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+.main-blog-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-blog-list-item {
+    width: 50%;
+    display: flex;
+}
+.main-blog-list-item1{
+    padding: 0 0 0 10px;
+}
+.blog-input {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+@media screen and (max-width:768px) {
+    .main-blog-list{
+        display: flex;
+        flex-direction: column;
+    }
+}

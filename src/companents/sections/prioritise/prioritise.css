@@ -1,0 +1,36 @@
+.main-blog-priorit {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-blog-priorit>h3{
+    display: flex;
+    justify-content: center;
+}
+.priorit-list {
+    display: flex;
+    justify-content: space-between;
+}
+.priorit-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.list-blog-priorit-list-item>image {
+    width: 100%;
+}
+.image { 
+    width: 40px;
+}
+.bgcolor {
+    background-color: antiquewhite;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:768px) {
+    .priorit-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
